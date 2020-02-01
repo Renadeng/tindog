@@ -7,85 +7,84 @@ body {
 
 h1 {
   font-family: 'Montserrat-Black', sans-serif;
+  color: #fff;
+  font-size: 3rem;
 }
 
 h2 {
+  font-family: 'Montserrat-bold', sans-serif;
   color: #000;
+  font-size: 2rem;
 }
 
 h3 {
+  font-family: 'Montserrat-bold', sans-serif;
   color: #000;
+  font-size: 1.5rem;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
 }
 
 /* Title Section */
-#title {
-  background-color: #ff4c68;
-  padding: 2% 15%;
+#title .container-fluid {
+  padding: 3% 15% 7%;
 }
 
 .navbar {
   padding-left: 0;
-  margin-bottom: 15%;
+  margin-bottom: 10%;
 }
 
 .navbar-brand {
   font-size: 2rem;
 }
+
 .col-title {
   text-align: left;
 }
 
-.title-des {
-  color: #fff;
-  font-size: 3.5rem;
-  text-align: left;
-}
 .btn-download {
-  margin: 5% 5% 5% 0;
+  margin: 5% 5% 0 0;
 }
 
 .title-pic {
-  width: 50%;
+  width: 40%;
   transform: rotate(25deg);
 }
 
 /* Feature Section */
-#features {
-  background-color: #fff;
-  margin: 7% 5%;
-}
-
-.col-features {
-  padding: 3% 2%;
-}
-
 .fas-features {
   color: #ef8172;
   margin-bottom: 15px;
 }
 
-.features-des {
-  color: #8f8f8f;
-  font-size: 1rem;
-}
-
 /* Testimonials Section */
 #testimonials {
   background-color: #ef8172;
-  padding: 7% 20%;
+  padding-bottom: 7%;
+}
+
+.testimonial-text {
   color: #fff;
 }
 
 .testimonial-image {
     margin-top: 25px;
-    width: 100px;
+    width: 75px;
     border-radius: 100%;
-}
-
-/* Press Section */
-#press {
-  background-color: #ef8172;
-  padding: 3% 7% 7%;
 }
 
 .press-logo {
@@ -94,36 +93,18 @@ h3 {
 }
 
 /* Pricing Section */
-#pricing {
-  background-color: #fff;
-  margin: 10%;
-}
-
 .row-pricing {
   margin-top: 50px;
 }
 
 /* CTA Section */
-#cta {
-  background-color: #ff4c68;
-  padding: 75px 0;
-  margin: 50px auto;
-  text-align: center;
-}
-
-.cta-des {
-  color: #fff;
-}
-
 .btn-cta {
-  margin: 15px;
+  margin: 25px auto 0;
 }
 
 /* Footer Section */
 #footer {
-  background-color: #fff;
-  text-align: center;
-  margin-bottom: 25px;
+  margin: 50px auto 25px;
 }
 
 .fab-footer {
