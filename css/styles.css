@@ -1,13 +1,67 @@
 body {
   font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+  line-height: 1.5;
 }
 
 h1 {
   font-family: 'Montserrat-Black', sans-serif;
-  font-size: 3rem;
-  line-height: 1.5;
 }
 
+/* Title Section */
 #title {
   background-color: #ff4c68;
+  padding: 2% 15%;
 }
+
+.navbar {
+  padding-left: 0;
+  margin-bottom: 15%;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+}
+.col-title {
+  text-align: left;
+}
+
+.title-des {
+  color: #fff;
+  font-size: 3.5rem;
+  text-align: left;
+}
+.btn-download {
+  margin: 5% 5% 5% 0;
+}
+
+.title-pic {
+  width: 50%;
+  transform: rotate(25deg);
+}
+
+/* Feature Section */
+#features {
+  background-color: #fff;
+}
+
+/* Testimonials Section */
+#testimonials {
+  background-color: #ef8172;
+}
+
+#press {
+  background-color: #ef8172;;
+}
+
+/* Pricing Section */
+#pricing {
+  background-color: #fff;
+}
+
+/* CTA Section */
+#cta {
+  background-color: #ff4c68;
+}
+
+/* Footer Section */
