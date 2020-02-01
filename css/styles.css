@@ -2,10 +2,19 @@ body {
   font-family: 'Ubuntu', sans-serif;
   text-align: center;
   line-height: 1.5;
+  color: #8f8f8f;
 }
 
 h1 {
   font-family: 'Montserrat-Black', sans-serif;
+}
+
+h2 {
+  color: #000;
+}
+
+h3 {
+  color: #000;
 }
 
 /* Title Section */
@@ -43,20 +52,55 @@ h1 {
 /* Feature Section */
 #features {
   background-color: #fff;
+  margin: 7% 5%;
+}
+
+.col-features {
+  padding: 3% 2%;
+}
+
+.fas-features {
+  color: #ef8172;
+  margin-bottom: 15px;
+}
+
+.features-des {
+  color: #8f8f8f;
+  font-size: 1rem;
 }
 
 /* Testimonials Section */
 #testimonials {
   background-color: #ef8172;
+  padding: 7% 20%;
+  color: #fff;
 }
 
+.testimonial-image {
+    margin-top: 25px;
+    width: 100px;
+    border-radius: 100%;
+}
+
+/* Press Section */
 #press {
-  background-color: #ef8172;;
+  background-color: #ef8172;
+  padding: 3% 7% 7%;
+}
+
+.press-logo {
+  width: 150px;
+  margin: 25px;
 }
 
 /* Pricing Section */
 #pricing {
   background-color: #fff;
+  margin: 10%;
+}
+
+.row-pricing {
+  margin-top: 50px;
 }
 
 /* CTA Section */
